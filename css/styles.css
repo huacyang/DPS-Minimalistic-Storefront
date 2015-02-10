@@ -1,0 +1,71 @@
+body{
+    background-color: #ffd8d8;
+}
+
+/*Folio view*/
+.folioView{
+    height: 76px;
+    background-color: #FFF;
+    margin: 20px;
+    padding: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -webkit-transition-delay:0.5s;
+}
+
+.appear{
+    opacity: 1;
+}
+
+.folioInfo{
+    margin-top: 16px;
+}
+
+
+.folioNum{
+    width: 80px;
+    float:left;
+    text-align: center;
+}
+
+.folioTitle{
+    width: 200px;
+    float:left;
+}
+
+.folioDesc{
+    width: 200px;
+    float:left;
+    font-style: italic;
+}
+
+.folioImg{
+    float: left;
+    width: 40px;
+}
+
+.buy-button{
+    font-weight:bold;
+    float:right;
+    text-align: center;
+    width:120px;
+    color: #44AAFF;
+}
+
+.archive-button{
+    font-weight:bold;
+    float:right;
+    text-align: center;
+    width:100px;
+    display:none;
+    color: #85a6bf;
+}
+
+.download-amount{
+    width:150px;
+    float:right;
+    text-align: center;
+    color: #85a6bf;
+    margin-top: 4px;
+}
+
